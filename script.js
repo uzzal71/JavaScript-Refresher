@@ -26,3 +26,22 @@ const hello = () => {
 }
 
 const hello = () => 5;
+
+const hello = (a, b) => a + b;
+
+const hello = (a, b) => {
+    a++;
+    return a * b;
+}
+
+const hello = (a, b) => {
+    return {
+        a: 5,
+        b: 6
+    }
+}
+
+const hello = (a, b) => ({
+    a: 5,
+    b: 6
+});
