@@ -4,7 +4,10 @@ const user = {
     name: "Uzzal Roy",
     age: 42,
     education: {
-        degree: "Graduate"
+        degree: "Graduate",
+        school: {
+            school_name: "Dinajpur Polytechnic Institute"
+        }
     }
 };
 
@@ -14,5 +17,8 @@ console.log(name, age);
 const { education } = user;
 console.log(education);
 
-const { education: { degree } } = user;
+const { education: { degree } = {} } = user;
 console.log(degree);
+
+const { education: { school: school_name } = {} } = user;
+console.log(school_name);
