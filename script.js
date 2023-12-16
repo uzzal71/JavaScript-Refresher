@@ -13,3 +13,6 @@ console.log(valueArray);
 
 let entriesArray = Object.entries(language);
 console.log(entriesArray);
+
+language.popularity = "100%";
+console.log(language);
