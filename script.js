@@ -29,6 +29,7 @@ console.log(resultLang);
 
 // Rest Operator
 function sum(a, b) {
+    console.log(arguments);
     return a + b;
 }
 console.log(sum(5, 6));
