@@ -4,7 +4,7 @@
 
 const result = NaN;
 if(result) {
-
+    console.log("Falsy");
 } else {
-    
+    console.log("Truthy");
 }
