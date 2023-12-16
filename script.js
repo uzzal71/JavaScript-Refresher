@@ -45,3 +45,16 @@ const hello = (a, b) => ({
     a: 5,
     b: 6
 });
+
+// anonymous function
+function hello() {
+    return () => {
+        console.log("Hello world");
+    }
+}
+
+function hello() {
+    return function(){
+        console.log("Hello world");
+    }
+}
