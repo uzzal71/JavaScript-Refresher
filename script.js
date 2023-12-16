@@ -1,4 +1,6 @@
 // object tricks
+const a = "version";
+
 const language = {
     name: "JavaScript",
     year: 1995,
@@ -15,4 +17,7 @@ let entriesArray = Object.entries(language);
 console.log(entriesArray);
 
 language.popularity = "100%";
+console.log(language);
+
+language[a] = "2016";
 console.log(language);
