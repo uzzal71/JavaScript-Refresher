@@ -28,8 +28,8 @@ let resultLang = {
 console.log(resultLang);
 
 // Rest Operator
-function sum(a, b) {
-    console.log(arguments);
-    return a + b;
+function sum(...rest) {
+    console.log(rest);
+    return rest.reduce((total, currentValue) => total + currentValue, 0);
 }
 console.log(sum(5, 6));
