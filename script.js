@@ -1,4 +1,4 @@
-// Destructuring
+// Optional Chaining
 const user = {
     id: 339,
     name: "Uzzal Roy",
@@ -10,15 +10,3 @@ const user = {
         }
     }
 };
-
-const { name, age } = user;
-console.log(name, age);
-
-const { education } = user;
-console.log(education);
-
-const { education: { degree } = {} } = user;
-console.log(degree);
-
-const { education: { school: school_name } = {} } = user;
-console.log(school_name);
