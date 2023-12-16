@@ -9,3 +9,20 @@ function hello() {
 
 let msg = hello();
 console.log(msg);
+
+// function expression
+const hello = function() {
+    console.log("Hello world");
+}
+
+// named function exprepression
+const hello = function hello() {
+    console.log("Hello world");
+}
+
+// arrow function
+const hello = () => {
+    console.log("Hello world");
+}
+
+const hello = () => 5;
