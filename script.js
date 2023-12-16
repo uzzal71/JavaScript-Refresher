@@ -5,4 +5,12 @@ async function getData() {
     console.log(data);
 }
 
-getData();
+function bigWork() {
+    return getData();
+}
+
+(async function(){
+    const result = await bigWork();
+})();
+
+console.log("need to use the response");
