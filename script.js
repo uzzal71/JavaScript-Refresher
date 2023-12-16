@@ -1,5 +1,5 @@
 // Spread & Rest Operator
-const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const fruits = ["Banana", "Orange"];
 
 const language = {
     name: "JavaScript",
@@ -7,5 +7,10 @@ const language = {
     creator: "Brendan Eich",
 };
 
+// Sperad Operator
 let result = [...fruits];
+console.log(result);
+
+result.push("Pineapple");
 console.log(result)
+console.log(fruits);
