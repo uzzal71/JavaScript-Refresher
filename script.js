@@ -1,5 +1,9 @@
 // Spread & Rest Operator
 const fruits = ["Banana", "Orange"];
+const fruitObjectArray = [
+    {name: "Uzzal"},
+    {nmae: "Sujon"}
+]
 
 const language = {
     name: "JavaScript",
@@ -14,3 +18,6 @@ console.log(result);
 result.push("Pineapple");
 console.log(result)
 console.log(fruits);
+
+let result2 = [...fruitObjectArray];
+console.log(result2);
