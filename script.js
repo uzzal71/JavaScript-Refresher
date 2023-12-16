@@ -1,12 +1,12 @@
 // object tricks
 const a = "version";
-const b = "Bangladesh"
+const country = "Bangladesh"
 
 const language = {
     name: "JavaScript",
     year: 1995,
     creator: "Brendan Eich",
-    b
+    country,
 };
 
 let keyArray = Object.keys(language);
