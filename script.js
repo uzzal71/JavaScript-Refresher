@@ -21,3 +21,14 @@ console.log(fruits);
 
 let result2 = [...fruitObjectArray];
 console.log(result2);
+
+let resultLang = {
+    ...language
+};
+console.log(resultLang);
+
+// Rest Operator
+function sum(a, b) {
+    return a + b;
+}
+console.log(sum(5, 6));
