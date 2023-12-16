@@ -1,10 +1,14 @@
-// Truthy & falsy
-// Truthy: other all truthy
-// Falsy: false, 0, undifined, null, '', NaN
+// Ternary Operator
+const a = 6;
+let result;
 
-const result = NaN;
-if(result) {
-    console.log("Falsy");
+if(a % 2 === 0) {
+    result = "Even";
 } else {
-    console.log("Truthy");
+    result = "Odd";
 }
+console.log(result);
+
+// shortcut
+result = a % 2 === 0 ? "New Even" : "New Odd";
+console.log(result)
