@@ -1,4 +1,4 @@
-// Optional Chaining
+// Nullish Coalescing Operator
 const user = {
     id: 339,
     name: "Uzzal Roy",
@@ -6,7 +6,7 @@ const user = {
     education: {
         degree: "Graduate",
         school: {
-            school_name: "Dinajpur Polytechnic Institute"
+            name: "Dinajpur Polytechnic Institute"
         }
     }
 };
